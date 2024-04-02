@@ -35,9 +35,18 @@
     color: #fff;
     text-decoration: none;
 }
+.show-hamburger{
+    display: none;
+}
 
 /* Media Query for responsiveness */
 @media screen and (max-width: 768px) {
+    .show-hamburger{
+        display: flex;
+    }
+    .logo{
+        width: 26vw;
+    }
     .nav-menu {
         display: none;
         flex-direction: column;
