@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import Carousel from '../Components/Carousel';
 import CardView from '../Components/CardView';
+// import LoadingBar from '../Components/LoadingBar';
 
 function Home() {
   const items = [
@@ -50,6 +51,7 @@ function Home() {
   return (
     <div>
       <Navbar />
+      {/* <LoadingBar /> */}
       <div className="top_container">
         <Carousel items={items} />
         <div className="title_ongoing_projects">

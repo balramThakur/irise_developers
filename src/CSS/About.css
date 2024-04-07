@@ -1,0 +1,47 @@
+/* AboutPage.css */
+.about-page {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  
+  .about-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-image {
+    margin-top: 20px;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (min-width: 768px) {
+    /* .about-page {
+      flex-direction: row;
+    } */
+  
+    .about-content {
+      flex: 1;
+      padding: 0 20px;
+    }
+  
+    .about-image {
+      margin-top: 0;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .about-image img {
+      max-width: 80%;
+      height: auto;
+    }
+  }
+  
