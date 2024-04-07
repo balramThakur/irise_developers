@@ -1,0 +1,10 @@
+.call-icon{
+    position: fixed;
+    font-size: 6vw;
+    top: 72vh;
+    left: 84vw;
+}
+
+.call-icon img{
+    width: 82px;
+}

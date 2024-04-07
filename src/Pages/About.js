@@ -3,6 +3,7 @@ import React from 'react';
 import '../CSS/About.css'; // Import the CSS file for styling
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
+import CallIcon from '../Components/CallIcon';
 
 const About = () => {
   return (
@@ -14,8 +15,9 @@ const About = () => {
         <p>Integer et mi id odio varius luctus non nec turpis. Nulla sed augue ut nisi tristique vehicula. Nam id pharetra dolor. Duis laoreet purus eu ex consectetur, non vestibulum purus blandit. Donec tristique urna vel tortor consectetur, et ultrices odio efficitur. Sed id rhoncus lacus.</p>
       </div>
       <div className="about-image">
-        <img src="about_image.jpg" alt="About Us" />
+        <img src="https://source.unsplash.com/random/1920x1080/?building,landscape" alt="About Us" />
       </div>
+      <CallIcon/>
       <Footer/>
     </div>
   );
