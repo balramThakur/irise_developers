@@ -14,9 +14,9 @@ const About = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat felis eu urna dictum, id condimentum odio fermentum. Nam in nisi tincidunt, sollicitudin magna vitae, vulputate lacus.</p>
         <p>Integer et mi id odio varius luctus non nec turpis. Nulla sed augue ut nisi tristique vehicula. Nam id pharetra dolor. Duis laoreet purus eu ex consectetur, non vestibulum purus blandit. Donec tristique urna vel tortor consectetur, et ultrices odio efficitur. Sed id rhoncus lacus.</p>
       </div>
-      <div className="about-image">
+      {/* <div className="about-image">
         <img src="https://source.unsplash.com/random/1920x1080/?building,landscape" alt="About Us" />
-      </div>
+      </div> */}
       <CallIcon/>
       <Footer/>
     </div>

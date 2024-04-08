@@ -2,8 +2,7 @@
 .about-page {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    background-image: url("../Images/Img2.png");
   }
   
   .about-content {

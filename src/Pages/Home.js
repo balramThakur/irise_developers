@@ -4,11 +4,12 @@ import Footer from '../Components/Footer'
 import Carousel from '../Components/Carousel';
 import CardView from '../Components/CardView';
 import CallIcon from '../Components/CallIcon';
+import img1 from '../Images/img1.jpeg';
 // import LoadingBar from '../Components/LoadingBar';
 
 function Home() {
   const items = [
-    <img src="https://source.unsplash.com/random/1920x1080/?Buildings,landscape" height={600} alt="Image1" />,
+    <img src={img1} height={600} alt="Image1" />,
     <img src="https://source.unsplash.com/random/1920x1080/?lands,landscape" height={600} alt="Image2" />,
     <img src="https://source.unsplash.com/random/1920x1080/?wallpaper,landscape" height={600} alt="Image3" />,
     // Add more items as needed
