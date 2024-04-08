@@ -5,50 +5,30 @@ import Carousel from '../Components/Carousel';
 import CardView from '../Components/CardView';
 import CallIcon from '../Components/CallIcon';
 import img1 from '../Images/img1.jpeg';
-// import LoadingBar from '../Components/LoadingBar';
+import img3 from '../Images/img3.jpeg';
+import { Link } from 'react-router-dom';
+import { IoIosArrowDown } from "react-icons/io";
 
 function Home() {
   const items = [
     <img src={img1} height={600} alt="Image1" />,
-    <img src="https://source.unsplash.com/random/1920x1080/?lands,landscape" height={600} alt="Image2" />,
+    <img src={img3} height={600} alt="Image2" />,
     <img src="https://source.unsplash.com/random/1920x1080/?wallpaper,landscape" height={600} alt="Image3" />,
     // Add more items as needed
   ];
   const ongingProjects = [
     {
-      title: 'Card 1',
-      description: 'Description for card 1',
-      image: 'https://source.unsplash.com/random/1920x1080/?building,landscape',
+      title: 'VIJAYDURG CHS. LTD.',
+      description: <Link to="/vijaydurg">Show More <IoIosArrowDown/></Link>,
+      image: img1,
     },
-    {
-      title: 'Card 2',
-      description: 'Description for card 2',
-      image: 'https://source.unsplash.com/random/1920x1080/?building,landscape',
-    },
-    {
-      title: 'Card 3',
-      description: 'Description for card 2',
-      image: 'https://source.unsplash.com/random/1920x1080/?building,landscape',
-    },
-    // Add more cards as needed
   ];
   const completedProjects = [
     {
-      title: 'Card 1',
-      description: 'Description for card 1',
-      image: 'https://source.unsplash.com/random/1920x1080/?building,landscape',
+      title: 'USHA KIRAN HEIGHTS',
+      description: <Link to='/usakiran'>Show More <IoIosArrowDown/></Link>,
+      image: img3,
     },
-    {
-      title: 'Card 2',
-      description: 'Description for card 2',
-      image: 'https://source.unsplash.com/random/1920x1080/?building,landscape',
-    },
-    {
-      title: 'Card 3',
-      description: 'Description for card 2',
-      image: 'https://source.unsplash.com/random/1920x1080/?building,landscape',
-    },
-    // Add more cards as needed
   ];
   return (
     <div>

@@ -1,0 +1,19 @@
+.vijaydurg .main-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vijaydurg .para-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: serif;
+}
+
+.vijaydurg .para{
+    margin: 20px 108px;
+    font-size: 21px;
+    font-family: serif;
+}

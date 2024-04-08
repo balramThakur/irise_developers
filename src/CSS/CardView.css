@@ -1,29 +1,39 @@
 /* Card.css */
 .card {
-    width: 300px; /* Adjust card width as needed */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 20px; /* Adjust margin between cards as needed */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-image {
-    width: 100%;
-    height: 200px; /* Adjust image height as needed */
-    object-fit: cover;
-  }
-  
-  .card-content {
-    padding: 20px;
-  }
-  
-  .card-title {
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  
-  .card-description {
-    margin: 0;
-  }
-  
+  width: 430px;
+  height: 430px;
+  /* Adjust card width as needed */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  /* Adjust margin between cards as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 305px;
+  /* Adjust image height as needed */
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  margin: 0;
+}
+
+.card-description a{
+  text-decoration: none;
+    color: #4f187a;
+    font-weight: 500;
+}
