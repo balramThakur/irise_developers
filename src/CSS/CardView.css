@@ -37,3 +37,10 @@
     color: #4f187a;
     font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+  .card{
+    width: 364px;
+    height: 406px;
+  }
+}

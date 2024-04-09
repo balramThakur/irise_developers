@@ -50,3 +50,9 @@
     margin: 0;
   }
   
+@media screen and (max-width: 768px) {
+  .footer-container{
+    margin: 0 23px;
+  }
+}
+  

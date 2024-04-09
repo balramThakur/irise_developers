@@ -8,3 +8,10 @@
 .call-icon img{
     width: 82px;
 }
+
+@media screen and (max-width:784px) {
+    .call-icon{
+        top: 77vh;
+        left: 70vw;    
+    }
+}

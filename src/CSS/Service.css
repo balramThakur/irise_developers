@@ -1,23 +1,23 @@
-.service-page .service-containt{
+.service-page .service-containt {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.service-page .service-containt h1{
+.service-page .service-containt h1 {
     color: #ffff;
     font-size: 55px;
     font-family: serif;
 }
 
-.service-page .service-containt{
+.service-page .service-containt {
     padding: 30px 40px;
     font-size: 18px;
     background: black;
 }
 
-.service-page .service-containt .services{
+.service-page .service-containt .services {
     display: flex;
     background: #303132;
     color: white;
@@ -25,9 +25,30 @@
     border-radius: 20px;
     line-height: 2;
 }
-.service-page .service-containt .services img{
+
+.service-page .service-containt .services img {
     width: 19vw;
     height: 30vh;
     padding: 23px;
     border-radius: 48px;
+}
+
+@media screen and (max-width:784px) {
+
+    .service-page .service-containt h1{
+        font-size: 44px;
+    }
+    .service-page .service-containt {
+        padding: 1px 7px;
+        font-size: 15px;
+    }
+
+    .service-page .service-containt .services{
+        flex-direction: column;
+    }
+
+    .service-page .service-containt .services img{
+        width: 79.5vw;
+        height: 58vh;    
+    }
 }

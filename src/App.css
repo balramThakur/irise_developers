@@ -29,14 +29,14 @@
 
 .contact-page .maps {
   background: #2d2e2f;
-    color: white;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 20px 20px;
 }
 
-.contact-page .maps img{
+.contact-page .maps img {
   width: 37vw;
 }
 
@@ -48,7 +48,27 @@
   align-items: center;
 }
 
-.contact-page .maps p a{
+.contact-page .maps p a {
   color: rgb(255, 255, 255);
   text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .title_ongoing_projects {
+    font-size: 15px;
+    margin-top: 24px;
+  }
+
+  .contact-page .maps {
+    flex-direction: column;
+  }
+
+  .contact-page .maps img {
+    width: 96vw;
+  }
+
+  .contact-page .maps div{
+    width: 100%;
+  }
 }

@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../CSS/Navbar.css';
 import logo from '../Images/Logo.png';
 import Hamburger from './Hamburger';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    // const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+    // const toggleMenu = () => {
+    //     setIsOpen(!isOpen);
+    // };
     return (
         <nav className="navbar">
             <div className="navbar-container">
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <li className="nav-item"><Link to="/contactUs">Contact</Link></li>
                 </ul>
                 <div className="show-hamburger">
-                    <Hamburger isOpen={isOpen} toggleMenu={toggleMenu} />
+                    <Hamburger/>
                 </div>
             </div>
         </nav>
