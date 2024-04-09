@@ -36,6 +36,10 @@
   padding: 20px 20px;
 }
 
+.contact-page .maps img{
+  width: 37vw;
+}
+
 .contact-page .maps p {
   width: 28vw;
   font-size: 20px;
