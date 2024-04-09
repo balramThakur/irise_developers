@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../CSS/Navbar.css';
 import logo from '../Images/Logo.png';
 import Hamburger from './Hamburger';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,9 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <img src={logo} alt="Logo" className='logo' />
+                <Link to="/">
+                    <img src={logo} alt="Logo" className='logo' />
+                </Link>
                 <ul className="nav-menu">
                     <li className="nav-item"><Link to="/">Home</Link></li>
                     <li className="nav-item"><Link to="/about">About</Link></li>
