@@ -2,12 +2,23 @@
 .about-page {
     display: flex;
     flex-direction: column;
-    background-image: url("../Images/Img2.png");
+    /* background-image: url("../Images/Img2.png"); */
   }
   
   .about-content {
+    line-height: 2;
     text-align: center;
     padding: 20px;
+    font-size: 20px;
+  }
+
+  .about-content div ul{
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-weight: 700;
+    color: #1b2f61;
   }
   
   .about-image {
@@ -15,6 +26,7 @@
   }
   
   .about-image img {
+    border-radius: 0px 0px 136px 136px;
     max-width: 100%;
     height: auto;
   }
@@ -38,9 +50,9 @@
       align-items: center;
     }
   
-    .about-image img {
+    /* .about-image img {
       max-width: 80%;
       height: auto;
-    }
+    } */
   }
   

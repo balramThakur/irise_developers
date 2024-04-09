@@ -19,7 +19,7 @@ const Navbar = () => {
                 <ul className="nav-menu">
                     <li className="nav-item"><Link to="/">Home</Link></li>
                     <li className="nav-item"><Link to="/about">About</Link></li>
-                    <li className="nav-item"><a href="/">Services</a></li>
+                    <li className="nav-item"><Link to="/service">Services</Link></li>
                     <li className="nav-item"><Link to="/contactUs">Contact</Link></li>
                 </ul>
                 <div className="show-hamburger">

@@ -1,0 +1,33 @@
+.service-page .service-containt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-page .service-containt h1{
+    color: #ffff;
+    font-size: 55px;
+    font-family: serif;
+}
+
+.service-page .service-containt{
+    padding: 30px 40px;
+    font-size: 18px;
+    background: black;
+}
+
+.service-page .service-containt .services{
+    display: flex;
+    background: #303132;
+    color: white;
+    padding: 0 12px;
+    border-radius: 20px;
+    line-height: 2;
+}
+.service-page .service-containt .services img{
+    width: 19vw;
+    height: 30vh;
+    padding: 23px;
+    border-radius: 48px;
+}
