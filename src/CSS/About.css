@@ -30,9 +30,27 @@
     max-width: 100%;
     height: auto;
   }
+
+  .features{
+    display: flex;
+    background: linear-gradient(45deg, #51a1c8, transparent);
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+
+  }
+
+  .features div p{
+    background: #212121;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+    margin: 0px 6px;
+    border-radius: 7px;
+  }
   
   /* Media Query for responsiveness */
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     /* .about-page {
       flex-direction: row;
     } */
@@ -50,9 +68,8 @@
       align-items: center;
     }
   
-    /* .about-image img {
-      max-width: 80%;
-      height: auto;
-    } */
+    .features{
+      flex-direction: column;
+    }
   }
   
