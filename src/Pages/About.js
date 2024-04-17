@@ -9,6 +9,7 @@ import volunteering from '../Images/volunteering.png';
 import fairtrade from '../Images/fair-trade.png';
 import star from '../Images/star.png';
 import speed from '../Images/speed.png';
+import logo from '../Images/I_Rise_Logo-removebg.png';
 
 const About = () => {
   return (
@@ -19,6 +20,9 @@ const About = () => {
           <img src={about} alt="About Us" />
         </div>
         <h1>About Us</h1>
+        {/* <div className="logos">
+          <img src={logo} alt="" />
+        </div> */}
         <p>
           Welcome to Irise Developers, your trusted partner in the world of real estate in Mira Road East, Mira Bhayandar, Maharashtra, India. With a steadfast dedication to excellence, we are committed to delivering exceptional real estate solutions that exceed your expectations.
 
@@ -46,29 +50,42 @@ const About = () => {
         <div className="features">
           <div>
             <img src={volunteering} alt="" />
+            <h4>
+              UNITY
+            </h4>
             <p>
               In the realm of teamwork, success often eludes even the most talented groups when unity of purpose is lacking. Here at Vanguard Realty, we are bound together by a common vision: to establish Vanguard as the epitome of reliability and excellence in the real estate industry, not only domestically but on a global scale. Our journey thus far has been marked by triumphs we collectively cherish, fueled by our commitment to fostering a culture defined by trust and transparency. We stand resolute, unified in our pursuit of excellence, both within our organization and in our interactions with the world beyond.
             </p>
           </div>
-          <div>
-            <img src={speed} alt="" />
-            <p>
-            In the dynamic landscape of the realty industry, technological advancement is not just an option but a necessity. At Irise Developers, we embrace this imperative with fervor, recognizing that agility and innovation are paramount to our success. With a proactive approach, we adeptly acquire new skills and swiftly realign our operational processes to harness the power of emerging technologies. Prepared to confront challenges head-on, we stand at the forefront of progress, ensuring that we remain at the vanguard of innovation in the ever-evolving realm of real estate.
-            </p>
-          </div>
+
           <div>
             <img src={fairtrade} alt="" />
+            <h4>
+              RESPONSIBILITY
+            </h4>
             <p>
               At Irise Developers, we hold a steadfast belief that setting goals is merely the first step. What truly matters is assuming the responsibility for achieving those goals with unwavering commitment, perseverance, and dedicated effort, all orchestrated in a meticulously planned, goal-oriented manner. We understand that success is not merely a destination but a journey, one that demands our continual dedication and focus to navigate with precision and purpose.
             </p>
           </div>
           <div>
             <img src={star} alt="" />
+            <h4>
+              AMBITION
+            </h4>
             <p>
-            We've internalized a fundamental truth: big goals are the catalysts for significant successes. At Irise Developers, we prioritize meticulous planning and unwavering stability to set exceptionally high standards, propelling us toward the realization of our time-bound objectives. By consistently challenging ourselves to reach new heights, we not only meet but surpass our aspirations, embodying a commitment to excellence that defines our ethos at every turn.
+              We've internalized a fundamental truth: big goals are the catalysts for significant successes. At Irise Developers, we prioritize meticulous planning and unwavering stability to set exceptionally high standards, propelling us toward the realization of our time-bound objectives. By consistently challenging ourselves to reach new heights, we not only meet but surpass our aspirations, embodying a commitment to excellence that defines our ethos at every turn.
             </p>
           </div>
-          
+          <div>
+            <img src={speed} alt="" />
+            <h4>
+              SPEED
+            </h4>
+            <p>
+              In the dynamic landscape of the realty industry, technological advancement is not just an option but a necessity. At Irise Developers, we embrace this imperative with fervor, recognizing that agility and innovation are paramount to our success. With a proactive approach, we adeptly acquire new skills and swiftly realign our operational processes to harness the power of emerging technologies. Prepared to confront challenges head-on, we stand at the forefront of progress, ensuring that we remain at the vanguard of innovation in the ever-evolving realm of real estate.
+            </p>
+          </div>
+
         </div>
       </div>
       <CallIcon />

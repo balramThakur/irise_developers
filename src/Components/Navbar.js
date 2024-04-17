@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/Navbar.css';
-import logo from '../Images/Logo.png';
+import logo from '../Images/I_Rise_Logo-removebg.png';
 import Hamburger from './Hamburger';
 import { Link } from 'react-router-dom';
 

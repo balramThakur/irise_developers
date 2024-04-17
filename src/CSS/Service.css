@@ -6,7 +6,7 @@
 }
 
 .service-page .service-containt h1 {
-    color: #ffff;
+    color: black;
     font-size: 55px;
     font-family: serif;
 }
@@ -14,7 +14,7 @@
 .service-page .service-containt {
     padding: 30px 40px;
     font-size: 18px;
-    background: black;
+    background: linear-gradient(45deg, #4e9fca, transparent);
 }
 
 .service-page .service-containt .services {

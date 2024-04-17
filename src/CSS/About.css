@@ -2,7 +2,7 @@
 .about-page {
     display: flex;
     flex-direction: column;
-    /* background-image: url("../Images/Img2.png"); */
+    /* background: no-repeat center/80% url("../Images/I_Rise_Logo-removebg.png"); */
   }
   
   .about-content {
@@ -38,6 +38,10 @@
     border-radius: 4px;
     margin-bottom: 25px;
 
+  }
+
+  .features div h4{
+    margin: 0;
   }
 
   .features div p{
