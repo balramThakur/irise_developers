@@ -35,7 +35,7 @@ function Service() {
                             In conclusion, the redevelopment of cooperative housing societies is a complex yet rewarding endeavor that holds the promise of a brighter future for urban communities. By embracing innovative solutions and fostering collaboration, we can create sustainable, inclusive spaces that enrich the lives of all residents for generations to come.
                         </p>
                     </div>
-
+                    </div>
                 </div>
                 <div className="service-containt">
                     <div className='services'>
@@ -120,8 +120,6 @@ function Service() {
                     </div>
                     {/* <img src={img8} alt="" /> */}
                 </div>
-
-            </div>
             <Footer />
         </div>
     )
