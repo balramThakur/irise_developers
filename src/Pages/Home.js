@@ -4,16 +4,15 @@ import Footer from '../Components/Footer'
 import Carousel from '../Components/Carousel';
 import CardView from '../Components/CardView';
 import CallIcon from '../Components/CallIcon';
-import img1 from '../Images/img1.jpeg';
-import img3 from '../Images/img3.jpeg';
+import img1 from '../Images/cam-01- final.jpg';
+import img3 from '../Images/Image10.jpeg';
 import { Link } from 'react-router-dom';
 import { IoIosArrowDown } from "react-icons/io";
 
 function Home() {
   const items = [
-    <img src={img1} height={600} alt="Image1" />,
+    <img src={img1} height={600} alt="Image" />,
     <img src={img3} height={600} alt="Image2" />,
-    <img src="https://source.unsplash.com/random/1920x1080/?wallpaper,landscape" height={600} alt="Image3" />,
     // Add more items as needed
   ];
   const ongingProjects = [

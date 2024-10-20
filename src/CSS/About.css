@@ -24,6 +24,14 @@
   .about-image {
     margin-top: 20px;
   }
+
+  .about-image h1{
+    color: red;
+    font-size: 56px;
+    padding: 2px;
+    background: beige;
+    border-radius: 20px;
+  }
   
   .about-image img {
     border-radius: 0px 0px 136px 136px;
@@ -52,6 +60,32 @@
     margin: 0px 6px;
     border-radius: 7px;
   }
+
+  .ownerInfo div img{
+    width: 120px;
+    border-radius: 50px;
+  }
+
+  .ownerInfo div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .ownerInfo div p{
+    background: #74b4d3;
+    color: white;
+    padding: 6px;
+    border-radius: 12px;
+  }
+
+  .ownerInfo{
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
   
   /* Media Query for responsiveness */
   @media screen and (max-width: 768px) {
@@ -73,6 +107,14 @@
     }
   
     .features{
+      flex-direction: column;
+    }
+
+    .about-image h1{
+      font-size: 24px;
+    }
+
+    .ownerInfo{
       flex-direction: column;
     }
   }

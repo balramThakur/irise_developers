@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-import img1 from '../Images/img1.jpeg';
+import img1 from '../Images/cam-01- final.jpg';
 import '../CSS/Vijaydurg.css';
 
 function VijayDurg() {

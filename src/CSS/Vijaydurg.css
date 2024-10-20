@@ -4,6 +4,10 @@
     justify-content: center;
 }
 
+.main-photo img{
+    width: 68vw;
+}
+
 .vijaydurg .para-title{
     display: flex;
     align-items: center;

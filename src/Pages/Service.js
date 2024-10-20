@@ -5,6 +5,7 @@ import img4 from '../Images/img4.jpeg';
 import img5 from '../Images/Img5.jpeg';
 import img6 from '../Images/img6.jpeg';
 import img7 from '../Images/img7.jpeg';
+import img11 from '../Images/Img11.jpeg';
 // import img8 from '../Images/img8.jpeg';
 import '../CSS/Service.css';
 
@@ -18,7 +19,7 @@ function Service() {
                 <div className='services'>
                     <img src={img4} alt="" />
                     <div>
-                        <h2>Revelopments</h2>
+                        <h2>Redevelopments</h2>
                         <p>
                             Redevelopment of cooperative housing societies has become a crucial aspect of urban development, especially in cities like Mumbai where land is scarce and demand for housing is high. At its core, redevelopment involves the demolition and reconstruction of existing buildings to create newer, more modern structures that better utilize available space and cater to the evolving needs of residents.
 
@@ -118,7 +119,21 @@ function Service() {
                         </div>
                         <img src={img7} alt="" />
                     </div>
-                    {/* <img src={img8} alt="" /> */}
+                </div>
+
+                <div className="service-containt">
+                    <div className='services'>
+                        
+                        <div>
+                            <h2>
+                            Building Convene
+                            </h2>
+                            <p>
+                            A Building Convene Document is an essential part of the redevelopment process. It formalizes the decision of a building's residents or society members to move forward with redevelopment by officially selecting a developer and approving the project plan
+                            </p>
+                        </div>
+                        <img src={img11} alt="" />
+                    </div>
                 </div>
             <Footer />
         </div>
