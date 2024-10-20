@@ -83,6 +83,7 @@ const About = () => {
       <div className='ownerInfo'>
         <div>
           <img src={owner1} alt="owner1" />
+          <p>(Director)</p>
           <p>
               Mr. Brijesh R Tiwari
           </p>
@@ -90,6 +91,7 @@ const About = () => {
 
         <div>
           <img src={owner2} alt="owner1" />
+          <p>(Director)</p>
           <p>
             Mr. Rahul B Routray
           </p>
@@ -97,7 +99,9 @@ const About = () => {
 
         <div>
           <img src={owner3} alt="owner1" />
+          <p>(Director)</p>
           <p>
+            (Director)
             Mr. Kasturchand Ratilal Ramina
           </p>
         </div>
